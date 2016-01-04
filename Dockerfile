@@ -3,7 +3,7 @@ MAINTAINER Benjamin Böhmke
 
 # Install Latex
 RUN apt-get update && \
-    DEBIAN_FRONTEND=noninteractive apt-get -y install git curl \
+    DEBIAN_FRONTEND=noninteractive apt-get -y install git curl doxygen \
         php5-adodb php5-cli php5-curl php5-dbg php5-exactimage php5-gd \
         php5-geoip php5-geos php5-gnupg php5-imagick php5-imap php5-intl \
         php5-json php5-lasso php5-ldap php5-librdf php5-libvirt-php \
